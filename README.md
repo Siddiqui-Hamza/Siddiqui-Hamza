@@ -19,12 +19,13 @@ SMS-based receipt capture for trade contractors. A field worker texts a receipt 
 A multi-client AI platform: a Spring Boot REST API concurrently serving a React web app and a Manifest V3 Chrome extension that refines prompts directly inside the ChatGPT composer. 
 *   Bypassed complex React hydration conflicts using a MutationObserver with idempotent injection guards to keep the UI persistent across DOM mutations.
 
-<details>
-<summary><b>🖼️ Click to view System Architecture Diagram</b></summary>
-<br>
-
-<img width="1015" height="519" alt="Screenshot 2026-11-09 at 1 01 13 AM" src="https://github.com/user-attachments/assets/cb2b86d9-8ee9-489f-a0cc-74207a01659a" />
-</details>
+> <details>
+> <summary><kbd> 🖼️ View System Architecture Diagram </kbd></summary>
+> <br>
+> 
+> <img width="1015" height="519" alt="Screenshot 2026-11-09 at 1 01 13 AM" src="https://github.com/user-attachments/assets/cb2b86d9-8ee9-489f-a0cc-74207a01659a" />
+> 
+> </details>
 
 ---
 
