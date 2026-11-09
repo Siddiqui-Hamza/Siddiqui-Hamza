@@ -8,7 +8,7 @@ I build event-driven, multi-tenant systems that put LLMs into real workflows, wi
 
 ## 🚀 What I've Built
 
-### TradeLedger AI — *Proprietary, In Launch*
+### TradeLedger AI
 SMS-based receipt capture for trade contractors. A field worker texts a receipt photo; the platform extracts the data with LLM vision, matches it to the right job, and posts a coded transaction to QuickBooks Online with the original image attached.
 
 *   **Reliability:** Confidence-gated extraction that holds uncertain receipts instead of posting bad data, triggering a human-in-the-loop SMS disambiguation loop.
