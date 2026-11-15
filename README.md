@@ -18,9 +18,7 @@ SMS-based receipt capture for trade contractors. A field worker texts a receipt 
 > <details>
 > <summary><kbd> 🖼️ View System Architecture Diagram </kbd></summary>
 > <br>
-> 
-> [![TradeLedger AI Architecture]([https://github.com/user-attachments/assets/65270e4e-c9c2-44f3-bcfd-26a25318add9])]([https://github.com/user-attachments/assets/65270e4e-c9c2-44f3-bcfd-26a25318add9])
-> 
+> <img src="./tradeledger.png" alt="TradeLedger AI Architecture" width="100%" />
 > </details>
 
 ### LLM Prompt Enhancer
@@ -30,9 +28,7 @@ A multi-client AI platform: a Spring Boot REST API concurrently serving a React 
 > <details>
 > <summary><kbd> 🖼️ View System Architecture Diagram </kbd></summary>
 > <br>
-> 
-> [![LLM Prompt Enhancer Architecture]([https://github.com/user-attachments/assets/9dbeae54-f274-4881-80ea-9cf762c9b3c6])]([https://github.com/user-attachments/assets/9dbeae54-f274-4881-80ea-9cf762c9b3c6])
-> 
+> <img src="./prompt-enhancer.png" alt="LLM Prompt Enhancer Architecture" width="100%" />
 > </details>
 
 ---
