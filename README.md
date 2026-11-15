@@ -1,4 +1,4 @@
-👋 Hi, I'm Hamza — Backend & Applied AI Engineer
+# 👋 Hi, I'm Hamza — Backend & Applied AI Engineer
 
 🎓 Honours Computer Science @ WLU | Concentration in Big Data Systems
 
@@ -15,6 +15,16 @@ SMS-based receipt capture for trade contractors. A field worker texts a receipt 
 *   **Data Integrity:** 7-table multi-tenant PostgreSQL schema with partial/composite unique indexes and SHA-256 image hashing for strict idempotent ingestion.
 *   **Infrastructure:** 10-state receipt lifecycle, database-side PL/pgSQL RPC aggregations, and Intuit OAuth 2.0 token lifecycle management.
 
+> <details>
+> <summary><kbd> 🖼️ View System Architecture Diagram </kbd></summary>
+> <br>
+> 
+> <a target="_blank" rel="noopener noreferrer" href="[https://github.com/user-attachments/assets/65270e4e-c9c2-44f3-bcfd-26a25318add9]">
+>   <img src="[https://github.com/user-attachments/assets/65270e4e-c9c2-44f3-bcfd-26a25318add9]" alt="TradeLedger AI Architecture" width="100%" />
+> </a>
+> 
+> </details>
+
 ### LLM Prompt Enhancer
 A multi-client AI platform: a Spring Boot REST API concurrently serving a React web app and a Manifest V3 Chrome extension that refines prompts directly inside the ChatGPT composer. 
 *   Bypassed complex React hydration conflicts using a MutationObserver with idempotent injection guards to keep the UI persistent across DOM mutations.
@@ -23,15 +33,17 @@ A multi-client AI platform: a Spring Boot REST API concurrently serving a React 
 > <summary><kbd> 🖼️ View System Architecture Diagram </kbd></summary>
 > <br>
 > 
-> <img width="1015" height="519" alt="Screenshot 2026-11-09 at 1 01 13 AM" src="https://github.com/user-attachments/assets/cb2b86d9-8ee9-489f-a0cc-74207a01659a" />
+> <a target="_blank" rel="noopener noreferrer" href="[https://github.com/user-attachments/assets/9dbeae54-f274-4881-80ea-9cf762c9b3c6]">
+>   <img src="[https://github.com/user-attachments/assets/9dbeae54-f274-4881-80ea-9cf762c9b3c6]" alt="LLM Prompt Enhancer Architecture" width="100%" />
+> </a>
 > 
 > </details>
 
 ---
 
 ## 🌱 Currently Building
-* Automated financial news sentiment ETL pipeline (Python, PySpark, PostgreSQL)
-* Distributed data processing & cloud infrastructure (Docker, Hadoop)
+- Automated financial news sentiment ETL pipeline (Python, PySpark, PostgreSQL)
+- Distributed data processing & cloud infrastructure (Docker, Hadoop)
 
 ---
 
