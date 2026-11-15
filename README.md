@@ -19,9 +19,7 @@ SMS-based receipt capture for trade contractors. A field worker texts a receipt 
 > <summary><kbd> 🖼️ View System Architecture Diagram </kbd></summary>
 > <br>
 > 
-> <a target="_blank" rel="noopener noreferrer" href="[https://github.com/user-attachments/assets/65270e4e-c9c2-44f3-bcfd-26a25318add9]">
->   <img src="[https://github.com/user-attachments/assets/65270e4e-c9c2-44f3-bcfd-26a25318add9]" alt="TradeLedger AI Architecture" width="100%" />
-> </a>
+> [![TradeLedger AI Architecture]([https://github.com/user-attachments/assets/65270e4e-c9c2-44f3-bcfd-26a25318add9])]([https://github.com/user-attachments/assets/65270e4e-c9c2-44f3-bcfd-26a25318add9])
 > 
 > </details>
 
@@ -33,9 +31,7 @@ A multi-client AI platform: a Spring Boot REST API concurrently serving a React 
 > <summary><kbd> 🖼️ View System Architecture Diagram </kbd></summary>
 > <br>
 > 
-> <a target="_blank" rel="noopener noreferrer" href="[https://github.com/user-attachments/assets/9dbeae54-f274-4881-80ea-9cf762c9b3c6]">
->   <img src="[https://github.com/user-attachments/assets/9dbeae54-f274-4881-80ea-9cf762c9b3c6]" alt="LLM Prompt Enhancer Architecture" width="100%" />
-> </a>
+> [![LLM Prompt Enhancer Architecture]([https://github.com/user-attachments/assets/9dbeae54-f274-4881-80ea-9cf762c9b3c6])]([https://github.com/user-attachments/assets/9dbeae54-f274-4881-80ea-9cf762c9b3c6])
 > 
 > </details>
 
