@@ -8,27 +8,33 @@ I build event-driven, multi-tenant systems that put LLMs into real workflows, wi
 
 ## 🚀 What I've Built
 
-### TradeLedger AI
+### [TradeLedger AI](https://github.com/Siddiqui-Hamza/tradeledger-architecture)
 SMS-based receipt capture for trade contractors. A field worker texts a receipt photo; the platform extracts the data with LLM vision, matches it to the right job, and posts a coded transaction to QuickBooks Online with the original image attached.
 
 *   **Reliability:** Confidence-gated extraction that holds uncertain receipts instead of posting bad data, triggering a human-in-the-loop SMS disambiguation loop.
 *   **Data Integrity:** 7-table multi-tenant PostgreSQL schema with partial/composite unique indexes and SHA-256 image hashing for strict idempotent ingestion.
-*   **Infrastructure:** 10-state receipt lifecycle, database-side PL/pgSQL RPC aggregations, and Intuit OAuth 2.0 token lifecycle management.
+*   **Infrastructure:** 10-state receipt lifecycle, database-side PL/pgSQL JSON aggregations (native weekly spend computations), and Intuit OAuth 2.0 token lifecycle management.
 
 > <details>
 > <summary><kbd> 🖼️ View System Architecture Diagram </kbd></summary>
 > <br>
+> <a href="https://github.com/Siddiqui-Hamza/tradeledger-architecture">
 > <img src="./tradeledger.png" alt="TradeLedger AI Architecture" width="100%" />
+> </a>
 > </details>
 
-### LLM Prompt Enhancer
-A multi-client AI platform: a Spring Boot REST API concurrently serving a React web app and a Manifest V3 Chrome extension that refines prompts directly inside the ChatGPT composer. 
-*   Bypassed complex React hydration conflicts using a MutationObserver with idempotent injection guards to keep the UI persistent across DOM mutations.
+### [LLM Prompt Enhancer](https://github.com/Siddiqui-Hamza/ai-prompt-enhancer)
+A full-stack AI platform that seamlessly injects a native enhancement engine directly into the ChatGPT interface. It automatically reads raw inputs and replaces them with highly structured, LLM-optimized prompts without forcing the user to switch tabs.
+
+*   **Frontend Engineering:** Bypassed complex React hydration conflicts using a debounced `MutationObserver` with idempotent injection guards to keep the UI persistent across ChatGPT's DOM mutations.
+*   **Architecture:** A centralized Spring Boot REST API concurrently serving a standalone React/Vite dashboard and the Manifest V3 Chrome Extension.
 
 > <details>
 > <summary><kbd> 🖼️ View System Architecture Diagram </kbd></summary>
 > <br>
+> <a href="https://github.com/Siddiqui-Hamza/ai-prompt-enhancer">
 > <img src="./prompt-enhancer.png" alt="LLM Prompt Enhancer Architecture" width="100%" />
+> </a>
 > </details>
 
 ---
